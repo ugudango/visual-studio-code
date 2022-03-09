@@ -1,23 +1,23 @@
 $schema: vscode://schemas/color-theme
-name: Dracula
+name: DraculaCustom
 author: Zeno Rocha
 maintainers:
   - Derek P Sifford <dereksifford@gmail.com>
-semanticClass: theme.dracula
+semanticClass: theme.draculaCustom
 semanticHighlighting: true
 dracula:
   base:
-    - &BG        '#282A36'
-    - &FG        '#F8F8F2'
-    - &SELECTION '#44475A'
-    - &COMMENT   '#6272A4'
-    - &CYAN      '#8BE9FD'
-    - &GREEN     '#50FA7B'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
-    - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+    - &BG        '#22212C'
+    - &FG        '#F7F7F1'
+    - &SELECTION '#454158'
+    - &COMMENT   '#786FA8'
+    - &CYAN      '#9FFCEA'
+    - &GREEN     '#A5FB8F'
+    - &ORANGE    '#F7CA8A'
+    - &PINK      '#F087BD'
+    - &PURPLE    '#9182F7'
+    - &RED       '#F29A84'
+    - &YELLOW    '#FFFE91'
   ansi:
     - &COLOR0        '#21222C'
     - &COLOR1        '#FF5555'
@@ -27,7 +27,7 @@ dracula:
     - &COLOR5        '#FF79C6'
     - &COLOR6        '#8BE9FD'
     - &COLOR7        '#F8F8F2'
-    - &COLOR8        '#6272A4'
+    - &COLOR8        '#776EA7'
     - &COLOR9        '#FF6E6E'
     - &COLOR10       '#69FF94'
     - &COLOR11       '#FFFFA5'
@@ -46,7 +46,7 @@ dracula:
     - &TAB_DROP_BG   '#44475A70'
     # UI Variants
     - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
+    - &BGLight       '#2B2640' # HSV (230   , 25.71, 27.45)
     - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
     - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
 
